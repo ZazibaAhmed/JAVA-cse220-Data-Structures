@@ -1,0 +1,17 @@
+public class Tester
+{
+  public static void main(String args[])
+  {
+    Patient p=new Patient();
+    p.RegisterPatient();
+    p.RegisterPatient();
+    p.ShowAllPatient();
+    System.out.println("can doctor go home??? => "+p.CanDoctorGoHome());
+    p.ServePatient();
+    System.out.println("can doctor go home??? => "+p.CanDoctorGoHome());
+    p.ServePatient();
+    p.ServePatient();
+    p.CancelAll();
+    System.out.println("can doctor go home??? => "+p.CanDoctorGoHome());   
+  }
+}

@@ -1,0 +1,3 @@
+E-mail:summer16bucse220section4@gmail.com
+subject format: CSE220_lab no_student ID_section
+example:CSE220_lab1_15301043_section4
